@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#info-panel {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+}
+
+#info-panel.hidden {
+    display: none;
+}
+
+#close-info {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+canvas {
+    display: block;
+}
